@@ -1,0 +1,98 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+header {
+   padding: 25px 4% 20px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   border-radius: 0%;
+   background: #e0e0e0;
+   box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+h1 {
+   margin: 0; padding: 0;
+   font-size: 25px;
+}
+a {	
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+}
+nav {
+   margin: 0 0 0 auto;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+li {
+   margin: 0 0 0 15px;
+   font-size: 18px;
+}
+.main-header > h1 {
+   font-size: 50px;
+   text-align: center;
+}
+.main-header > h3 {
+   text-align: center;
+   font-size: 25px;
+   margin: 0 20 0 2;
+}
+.main-header > h2 {
+   margin: 0 1 0 25px;
+   text-align: center;
+   font-size: 30px;
+}
+.main-header > p {
+   text-align: center;
+   font-size: 21px;
+}
+.main-header > p > a {
+   text-align: center;
+   font-size: 25px;
+   margin: auto;
+}
+
+.btn {
+   transition: all 0.3s ease-in-out;
+   font-family: "Dosis", sans-serif;
+ }
+ 
+ .btn {
+   width: 180px;
+   height: 60px;
+   border-radius: 50px;
+   background-image: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+   box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5);
+   outline: none;
+   cursor: pointer;
+   border: none;
+   font-size: 24px;
+   color: white;
+   margin: auto;
+   display: block;
+ }
+ 
+ .btn:hover {
+   transform: translateY(3px);
+   box-shadow: none;
+ }
+ 
+ .btn:active {
+   opacity: 0.5;
+ }
